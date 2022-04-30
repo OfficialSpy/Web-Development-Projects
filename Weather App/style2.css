@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+
+height: 100px;
+background-color: #D81818;
+font-family: 'Supermercado One', sans-serif;
+}
+#search-form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px ;
+    font-family: 'Supermercado One', sans-serif;
+
+}
+#temp
+{
+    text-align: center;
+}
+#temp #temp-unit
+{   
+    font-family: 'Supermercado One', sans-serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+#temp #temp-value
+{
+    font-family: 'Supermercado One', sans-serif;
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+}
+#climate
+{
+    font-family: 'Supermercado One', sans-serif;
+    color:#ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+#location
+{
+     font-family: 'Supermercado One', sans-serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-align: center;
+   
+}
+#temp-icon
+{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #6b778d;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    font-family: 'Supermercado One', sans-serif;
+    display: block;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  #search-button {
+    color: #000000 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Architects Daughter', sans-serif;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #000000 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    }
+    #search-button:hover {
+        color: #ffffff ;
+        background: #ffffff;
+        border-color: #ffffff ;
+        transition: all 0.4s ease 0s;
+        cursor:pointer;
+        }
+
+
+ #search-input
+ {
+     width: 260px;
+     overflow: hidden;
+     font-size: 20px;
+     margin: 8px 0;
+     font-family: 'Architects Daughter', sans-serif;
+     padding: 8px 0;
+     border-bottom: 3px solid #ffffff;
+     color: white;
+     outline: none;
+     cursor:pointer;
+     background: none;
+ }       
+ input{
+     border: none;
+ }
